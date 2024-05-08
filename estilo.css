@@ -524,10 +524,13 @@ html{
     margin: 10px;
     cursor: pointer;
 }
-.portfolio .galeria .proyecto img{
-    width: 100%;
+.portfolio .galeria .proyecto img {
+    width: 340px !important; /* Ancho fijo */
+    height: 200px !important; /* Altura fija */
     display: block;
 }
+
+
 .portfolio .galeria .proyecto .overlay{
     position: absolute;
     top: 0;
@@ -675,6 +678,26 @@ footer .arriba{
     line-height: 50px;
     font-size: 18px;
 }
+
+.social-links {
+    display: flex;
+    justify-content: center;
+}
+
+.social-link {
+    margin-right: 10px;
+    color: white;
+}
+
+
+.social-link:hover {
+    color: #fd0303 
+}
+
+.social-link.github:hover {
+    color: black;
+}
+
 /* SECCION RESPONSIVE */
 @media screen and (max-width:980px){
     nav{
